@@ -159,7 +159,7 @@ This transforms the model from a black box into an **interpretable business tool
 
 ## 🌐 Live Demo
 
-👉 **Try the app live:** https://your-clv-app.streamlit.app/
+👉 **Try the app live:** https://clv-intelligence-dashboard.streamlit.app/
 
 ---
 
