@@ -150,7 +150,7 @@ This transforms the model from a black box into an **interpretable business tool
 ![SHAP](assets/SHAP.png)
 
 ### 💡 Business Strategy Playbook
-![Strategy](assets/Business Strategy.png)
+![Strategy](assets/Strategy.png)
 
 ### 📈 Benchmarking
 ![Strategy](assets/Benchmark.png)
