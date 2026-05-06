@@ -152,6 +152,9 @@ This transforms the model from a black box into an **interpretable business tool
 ### 💡 Business Strategy Playbook
 ![Strategy](assets/app4.png)
 
+### 📈 Benchmarking
+![Strategy](assets/app5.png)
+
 ---
 
 ## 🌐 Live Demo
