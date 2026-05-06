@@ -141,19 +141,19 @@ This transforms the model from a black box into an **interpretable business tool
 ## 📸 Application Screenshots
 
 ### 🖥️ Intelligence Dashboard
-![Dashboard](assets/app1.png)
+![Dashboard](assets/Dashboard.png)
 
 ### 📊 Prediction & Confidence Scores
-![Prediction](assets/app2.png)
+![Prediction](assets/Pred & Conf Score.png)
 
 ### 🧠 SHAP Waterfall Explanation
-![SHAP](assets/app3.png)
+![SHAP](assets/SHAP.png)
 
 ### 💡 Business Strategy Playbook
-![Strategy](assets/app4.png)
+![Strategy](assets/Business Strategy.png)
 
 ### 📈 Benchmarking
-![Strategy](assets/app5.png)
+![Strategy](assets/Benchmark.png)
 
 ---
 
@@ -166,20 +166,30 @@ This transforms the model from a black box into an **interpretable business tool
 ## 📂 Project Structure
 
 ```
-clv-prediction/
-├── data/
-│   └── online_retail_II.csv        # UCI Online Retail II dataset
+Customer_Lifetime_Value/
+│
+├── assets/                         # Dashboard screenshots and visual assets
+│   ├── dashboard.png               # Main dashboard preview
+│   ├── analytics_view.png          # Customer analytics and metrics section
+│   ├── shap_analysis.png           # SHAP explainability visualisation
+│   ├── strategy_view.png           # Customer strategy recommendation view
+│   └── benchmark_view.png          # Segment benchmark comparison charts
+│   
+├── data/                            # Raw Dataset used for Training & Analysis  
+│   └── online_retail_II.csv         # UCI Online Retail II dataset
+│
 ├── models/
-│   ├── clv_model.pkl               # Trained Random Forest model
-│   ├── scaler.pkl                  # StandardScaler for RFM features
-│   └── shap_explainer.pkl          # SHAP TreeExplainer
-├── notebooks/
-│   └── clv_analysis.ipynb          # Full EDA, feature engineering, training
-├── assets/
-│   └── app1.png, app2.png ...      # Dashboard screenshots
-├── app.py                          # Streamlit application
-├── requirements.txt                # Python dependencies
-└── README.md
+│   ├── clv_model.pkl                # Trained XGBoost customer segmentation model 
+│   ├── scaler.pkl                   # Standard Scaler used for Feature Scaling 
+│   └── shap_explainer.pkl           # SHAP TreeExplainer Object 
+│
+├── notebooks/                       # Complete RFM analysis for Model Training & Workflow
+│   └── main.py.ipynb
+│
+├── app.py                           # Main Streamlit Application 
+├── README.md                        # Project Documentation & Setup Guide 
+└── requirements.txt                 # Python dependencies for Deployment 
+
 ```
 
 ---
