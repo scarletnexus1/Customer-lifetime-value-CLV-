@@ -230,8 +230,10 @@ def load_models():
 try:
     model, scaler, explainer = load_models()
     models_loaded = True
-except:
+
+except Exception as e:
     models_loaded = False
+    st.error(f"Model loading error: {e}")
 
 # ── Data ───────────────────────────────────────────────────────────────────────
 SEGMENTS = {
